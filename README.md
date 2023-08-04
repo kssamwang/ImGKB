@@ -1,4 +1,4 @@
-# Exploring Inter-Graph Supervision with Kernel Information Bottleneck for Imbalanced Graph Classification
+# Where to Find Fascinating Inter-Graph Supervision: Imbalanced Graph Classification with Kernel Information Bottleneck
 
 
 
