@@ -17,7 +17,7 @@ def load_data(dataset):
     A = csr_matrix((np.ones(edges.shape[0]), (edges[:, 0], edges[:, 1])), shape=(graph_indicator.size, graph_indicator.size))#.todense()
     X = np.loadtxt("datasets/%s/%s_node_labels.txt" % (dataset, dataset), dtype=np.int64).reshape(-1, 1)
     # the value in the i-th line corresponds to the node with node_id i
-    enc = OneHotEncoder(sparse=False)
+    enc = OneHotEncoder(sparse_output=False)
     X = enc.fit_transform(X)
     adj = []
     features = []
